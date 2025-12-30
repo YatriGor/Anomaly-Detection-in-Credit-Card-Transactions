@@ -1,0 +1,2 @@
+# LSTMAutoEncoder
+This project presents an end-to-end credit card fraud detection system using an LSTM Autoencoder for anomaly detection. The app is built with Streamlit and includes detailed explanations of the dataset, preprocessing techniques, model architecture, and evaluation results. It leverages reconstruction error to detect fraudulent transactions with high precision and recall, even on highly imbalanced data.
