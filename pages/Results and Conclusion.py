@@ -19,6 +19,26 @@ st.markdown("""
     .stText, .stMarkdown {
         color: #1f3a63 !important;
     }
+    @media (prefers-color-scheme: dark) {
+        html, body, [data-testid="stApp"] {
+            color: #ffffff;
+        }
+        h1, h2, h3, h4 {
+            color: #ffffff;
+        }
+        .stText, .stMarkdown {
+            color: #ffffff !important;
+        }
+    }
+    [data-theme="dark"] html, [data-theme="dark"] body, [data-theme="dark"] [data-testid="stApp"] {
+        color: #ffffff;
+    }
+    [data-theme="dark"] h1, [data-theme="dark"] h2, [data-theme="dark"] h3, [data-theme="dark"] h4 {
+        color: #ffffff;
+    }
+    [data-theme="dark"] .stText, [data-theme="dark"] .stMarkdown {
+        color: #ffffff !important;
+    }
     </style>
 """, unsafe_allow_html=True)
 
